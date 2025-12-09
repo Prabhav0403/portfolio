@@ -1,6 +1,8 @@
 import React, { useState, useRef, useEffect, FormEvent } from "react";
 import { MessageCircle, X, Send, Sparkles, User, Bot } from "lucide-react";
 
+const API_BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:3001";
+
 interface Message {
   role: "user" | "bot";
   text: string;
@@ -39,13 +41,13 @@ const ChatBot: React.FC = () => {
     setIsThinking(true);
 
     try {
-      const res = await fetch("http://localhost:3001/api/chat", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ message: trimmed }),
-      });
+      const res = await fetch(`${API_BASE_URL}/api/chat`, {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json",
+  },
+  body: JSON.stringify({ message: trimmed }),
+});
 
       const data = await res.json();
 
