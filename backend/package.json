@@ -1,15 +1,12 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "type": "module",
   "main": "grok-server.mjs",
+  "type": "module",
   "scripts": {
-    "dev": "node grok-server.mjs"
+    "dev": "node grok-server.mjs",
+    "start": "node grok-server.mjs"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",
