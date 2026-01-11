@@ -95,7 +95,7 @@ const Projects: React.FC = () => {
             challenge="Users face decision fatigue and food waste due to inability to plan meals around existing pantry ingredients."
             constraints="Required minimal latency for AI generation and a mobile-first responsive design for kitchen use."
             solution="A generative AI application capable of parsing raw ingredient lists and returning structured, nutritional recipe data."
-            contribution="Engineered the state management system for real-time ingredient adding and developed the Express middleware to securely interface with the Grok API."
+            contribution="Managed state using React hooks, ensuring smooth UI updates and persistent streaming connections for real-time content delivery and developed the Express middleware to securely interface with the Grok API."
             impact="Deployed to production with 50+ active users and maintained 99.9% uptime."
           />
 
