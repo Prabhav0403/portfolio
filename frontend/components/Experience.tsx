@@ -36,15 +36,18 @@ const Experience: React.FC = () => {
                 <ul className="space-y-8">
                   <li className="flex items-start text-secondary text-xl">
                     <span className="mr-6 text-border font-mono text-sm mt-2">01</span>
-                    <p className="leading-relaxed">Built responsive ERP frontend modules using React.js, directly integrating with legacy backend APIs to modernize the user interface.</p>
+                    <p className="leading-relaxed">Pioneered a secure web application using JavaScript, Node.js, and MySQL, replicating core ERP costing module
+workflows for 50+ users.</p>
                   </li>
                    <li className="flex items-start text-secondary text-xl">
                     <span className="mr-6 text-border font-mono text-sm mt-2">02</span>
-                    <p className="leading-relaxed">Collaborated with technical leads to ensure data consistency between MySQL databases and client-side views.</p>
+                    <p className="leading-relaxed"> Designed a Role-Based Access Control (RBAC) system, enforcing role-specific permissions for 3 tiers of users: workers,
+managers, and administrators.</p>
                   </li>
                    <li className="flex items-start text-secondary text-xl">
                     <span className="mr-6 text-border font-mono text-sm mt-2">03</span>
-                    <p className="leading-relaxed">Implemented Role-Based Access Control (RBAC) protocols to secure sensitive inventory data based on organizational hierarchy.</p>
+                    <p className="leading-relaxed">Enabled cost update, review, and approval workflows, automating processes and improving data accuracy for 50+
+internal stakeholders.</p>
                   </li>
                   <li className="flex items-start text-secondary text-xl">
                     <span className="mr-6 text-border font-mono text-sm mt-2">04</span>
