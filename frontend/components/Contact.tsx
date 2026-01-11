@@ -32,7 +32,7 @@ const Contact: React.FC = () => {
               
               {/* Download Resume */}
               <a 
-                href="/resume.pdf"                    // served from public/resume.pdf
+                href="/Prabhav_Srivastava_Software_Engineering.pdf"                    // served from public/resume.pdf
                 download="Prabhav_Srivastava_Resume"  // forces download + filename
                 className="group flex-1 bg-panel border border-border p-10 flex flex-col justify-between min-h-[200px] hover:border-accent transition-colors cursor-pointer"
               >
