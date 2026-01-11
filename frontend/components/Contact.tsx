@@ -32,8 +32,8 @@ const Contact: React.FC = () => {
               
               {/* Download Resume */}
               <a 
-                href="/Prabhav_Srivastava_Software_Engineering.pdf"                    // served from public/resume.pdf
-                download="Prabhav_Srivastava_Resume"  // forces download + filename
+                href="/Prabhav_Srivastava_Software_Engineer.pdf"                    // served from public/resume.pdf
+                download="Prabhav_Srivastava_Software_Engineer"  // forces download + filename
                 className="group flex-1 bg-panel border border-border p-10 flex flex-col justify-between min-h-[200px] hover:border-accent transition-colors cursor-pointer"
               >
                 <span className="font-mono text-sm text-secondary uppercase tracking-widest">
